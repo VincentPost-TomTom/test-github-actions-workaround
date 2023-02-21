@@ -20,3 +20,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - uses: hashicorp/vault-action@da71d5cb54dbd7785f5a79e7b4e53ffeb51a2a25
+        with:
+          url: "https://doesntreallymatter.com/"
+          secrets: "asd"
